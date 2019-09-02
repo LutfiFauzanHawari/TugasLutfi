@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: Segoe UI;
+}
+.table
+{
+	width: 320px;
+	height: 320px;
+	margin-left: 500px;
+	margin-top: 100px;
+	border-radius: 15px;
+	padding: 25px;
+	box-shadow: 0px 0px 15px 1px;
+	display: inline-block;
+}
+.table h1
+{
+	font-size: 45px;
+	font-weight: normal;
+}
+.table input[type="text"], .table input[type="password"]
+{
+	border: none;
+	border-bottom: 3px solid #ddd;
+	width: 240px;
+	font-size: 20px;
+}
+.table input[type="text"]:focus, .table input[type="password"]:focus
+{
+	border: none;
+	border-bottom: 3px solid #333;
+}
+.button
+{
+	box-shadow: 0px 0px 9px 1px #222;
+	width: 60px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #fff;
+	border-radius : 15%;
+}
